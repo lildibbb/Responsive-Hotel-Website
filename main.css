@@ -5,6 +5,7 @@
     --pink: #ff029aa4;
     --dark: #141414;
 }
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -213,12 +214,13 @@ img{
 }
 .service-content h2{
     opacity: 0.7;
+    font-size: 30px;
 }
 .service-content button{
     margin-left: 0;
     margin-right: 0;
     background: var(--yellow);
-    color: #fff;
+    color: #FF0099;
 }
 @media(min-width: 992px){
     .services-container{
@@ -520,3 +522,5 @@ img{
     left: 0;
     z-index: 5;
 }
+
+  
