@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL DE LUNAE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="images/logo.png" type="image/png">
+    </head>
+    <body>
+            <!-- header -->
+            <header class="header" id = "header">
+                <div class ="head-top">
+                    <div class="site-name">
+                        <span>CHIKIBOI</span>
+                    </div>
+                    <div class="site-nav">
+                        <span id ="nav-btn"> MENU<i class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+
+                <div class="head-bottom flex">
+                    <h2>PROVIDING THE BEST PLACE TO STAY</h2>
+                    <p>CHIKIBOI HOTEL PALING MANTAP HEHEHEHEHEH YEHEHEHEHE</p>
+                    <button type ="button" class="head-btn">GET STARTED</button>
+                </div>
+            </header>
+            <!-- header end -->
+
+             <!-- side navbar -->
+             <div class = "sidenav" id = "sidenav">
+                 <span class = "cancel-btn" id = "cancel-btn">
+                     <i class  = "fas fa-times"></i>
+                 </span>
+
+                 <ul class = "navbar">
+                     <li><a href = "#header">Home</a></li>
+                     <li><a href = "#services">Services</a></li>
+                     <li><a href = "#rooms">Rooms</a></li>
+                     <li><a href = "#customers">Customers</a></li>
+                 </ul>
+                 <button class = "btn sign-up">Sign up</button>
+                 <button class = "btn log-in">Log in</button>
+             </div>
+             <!--side navbar end-->
+
+             <!-- fullscreen modal -->
+             <div id = "modal"></div>
+             <!-- end of fullscreen modal -->
+
+             <!--content-->
+             <section class = "services sec-width" id = "services">
+                 <div class = "title">
+                     <h2>Services</h2>
+                 </div>
+                 <div class ="services-container">
+                     <!--single service-->
+                     <article class = "service">
+                        <div class = "service-icon">
+                            <span>
+                                <i class = "fas fa-utensils"></i>
+                            </span>
+                        </div>
+                        <div class = "service-content">
+                            <h2>Food Service</h2>
+                            <p>Hungry? We also provided 5-star food service next to your door!</p>
+                            <button type = "button" class = "btn">Know More</button>
+                        </div>
+                    </article>
+                    <!-- end of single service -->
+                    <!--single service-->
+                    <article class = "service">
+                        <div class = "service-icon">
+                            <span>
+                                <i class = "fas fa-swimming-pool"></i>
+                            </span>
+                        </div>
+                        <div class = "service-content">
+                            <h2>Refreshment</h2>
+                            <p>also provided swimming pool !</p>
+                            <button type = "button" class = "btn">Know More</button>
+                        </div>
+                    </article>
+                     <!-- end of single service -->
+                     <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Maid sama!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                 </div>
+             </section>
+
+
+             <div class = "book">
+                <form class = "book-form">
+                     <div class = "form-item">
+                         <label for = "checkin-date">Check In Date : </label>
+                         <input type = "date" id = "checkin-date">
+                     </div>
+                     <div class = "form-item">
+                         <label for = "checkout-date">Check Out Date : </label>
+                         <input type = "date" id = "checkout-date">
+                     </div>
+                     <div class = "form-item">
+                         <label for = "adult">Adults : </label>
+                         <input type = "number" min = "1" value = "1" id = "adult">
+                     </div>
+                     <div class = "form-item">
+                        <label for = "children">Children : </label>
+                        <input type = "number" min = "1" value = "1" id = "children">
+                    </div>
+                    <div class = "form-item">
+                        <label for = "rooms"> Rooms : </label>
+                        <input type = "number" min = "1" value = "1" id = "rooms">
+                    </div>
+                    <div class = "form-item">
+                        <input type = "submit" class = "btn" value = "Book Now!">
+                    </div>
+                </form>
+             </div>
+
+             <section class = "rooms sec-width" id = "rooms">
+                 <div class = "title">
+                     <h2>rooms</h2>
+                 </div>
+                 <div class = "rooms-container">
+                     <!--single room-->
+                     <article class = "room">
+                         <div class = "room-image">
+                             <img src = "images/room.jpg" alt = "chonki/ room image">
+                         </div>
+                         <div class = "room-text">
+                             <h3>Luxury Room</h3>
+                             <ul>
+                                 <li>
+                                     <i class = "fas fa-arrow-alt-circle-right"></i>
+                                     test jap
+                                 </li>
+                                 <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    test jap 2
+                                 </li>
+                                 <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    test jap 3
+                                 </li>
+                             </ul>
+                             <p>ni aku pon taktau</p>
+                             <p class = "rate">
+                                 <span>RM500 /</span> Per Night
+                             </p>
+                             <button type = "button" class = "btn" >Book Now!</button>
+                         </div>    
+                     </article>
+                     <!-- end of single room -->
+                     <!-- single room -->
+                     <article class = "room">
+                        <div class = "room-image">
+                            <img src = "images/room2.jpg" alt = "chonki/ room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Deluxe Room</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    sapa do kau
+                                </li>
+                                <li>
+                                   <i class = "fas fa-arrow-alt-circle-right"></i>
+                                   entah
+                                </li>
+                                <li>
+                                   <i class = "fas fa-arrow-alt-circle-right"></i>
+                                   koeoeoeo
+                                </li>
+                            </ul>
+                            <p>benda boleh murah do</p>
+                            <p class = "rate">
+                                <span>RM200 /</span> Per Night
+                            </p>
+                            <button type = "button" class = "btn" >Book Now!</button>
+                        </div>    
+                    </article>
+                    <!-- end of single room -->
+                    <!-- single room -->
+                    <article class = "room">
+                        <div class = "room-image">
+                            <img src = "images/room3.jpg" alt = "chonki/ room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Premier Room</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    sapa do kau
+                                </li>
+                                <li>
+                                   <i class = "fas fa-arrow-alt-circle-right"></i>
+                                   entah
+                                </li>
+                                <li>
+                                   <i class = "fas fa-arrow-alt-circle-right"></i>
+                                   koeoeoeo
+                                </li>
+                            </ul>
+                            <p>benda boleh murah do</p>
+                            <p class = "rate">
+                                <span>RM300 /</span> Per Night
+                            </p>
+                            <button type = "button" class = "btn" >Book Now!</button>
+                        </div>    
+                    </article>
+                 </div>
+             </section>
+
+
+             <section class = "customers" id = "customers">
+                 <div class = "sec-width">
+                     <div class = "title">
+                         <h2>Customers</h2>
+                     </div>
+                     <div class = "customers-container">
+                         <!--single customer-->
+                         <div class ="customer">
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                            </div>
+                            <h3>Ottoke!!!! Chinchaa</h3>
+                            <p>benda memang murah so saya langgan</p>
+                            <img src = "images/cus.jpg" alt ="kerol-img"> 
+                            <span>Customer Name, Country</span>
+                        </div>   
+                         <!-- end of single customer --> 
+                         <!--single customer-->
+                         <div class ="customer">
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                            </div>
+                            <h3>Ottoke!!!! Chinchaa</h3>
+                            <p>benda memang murah so saya langgan</p>
+                            <img src = "images/cus.jpg" alt ="kerol-img"> 
+                            <span>Customer Name, Country</span>
+                        </div>   
+                         <!-- end of single customer --> 
+                         <!--single customer-->
+                         <div class ="customer">
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                            </div>
+                            <h3>Ottoke!!!! Chinchaa</h3>
+                            <p>benda memang murah so saya langgan</p>
+                            <img src = "images/cus.jpg" alt ="kerol-img"> 
+                            <span>Customer Name, Country</span>
+                        </div>   
+                         <!-- end of single customer --> 
+                    </div>      
+                 </div>
+             </section>
+             <!--content end-->
+
+             
+    </body>
+</html>
