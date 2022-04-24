@@ -1,22 +1,20 @@
 <!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
-        <title>HOTEL DE LUNAE</title>
+        <title>CHIKIBOI HOTEL</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/74d379cddf.js" crossorigin="anonymous"></script>
         <link rel="icon" href="images/logo.png" type="image/png">
     </head>
    
-    <body>
+    <body id = "first-page">
             <!-- header -->
             <header class="header" id = "header">
                 <div class ="head-top">
                     <div class="site-name">
                         <span>CHIKIBOI</span>
-                        
-                        </a>
-                        
                     </div>
                     <div class="site-nav">
                         <span id ="nav-btn"> MENU<i class="fas fa-bars"></i></span>
@@ -26,27 +24,37 @@
                 <div class="head-bottom flex">
                     <h2>PROVIDING THE BEST PLACE TO STAY</h2>
                     <p>CHIKIBOI HOTEL PALING MANTAP HEHEHEHEHEH YEHEHEHEHE</p>
-                    <button type ="button" class="head-btn">GET STARTED</button>
-                    
+                    <video autoplay muted loop id="headervid">
+                        <source src="images/vid1t.mp4" type="video/mp4">
+                      </video>
                 </div>
+                
+                
                 
             </header>
             <!-- header end -->
 
              <!-- side navbar -->
              <div class = "sidenav" id = "sidenav">
-                 <span class = "cancel-btn" id = "cancel-btn">
+                <span class = "cancel-btn" id = "cancel-btn">
                      <i class  = "fas fa-times"></i>
-                 </span>
+                </span>
 
-                 <ul class = "navbar">
+                <ul class = "navbar">
                      <li><a href = "#header">Home</a></li>
                      <li><a href = "#services">Services</a></li>
                      <li><a href = "#rooms">Rooms</a></li>
                      <li><a href = "#customers">Customers</a></li>
-                 </ul>
-                 <button class = "btn sign-up">Sign up</button>
-                 <button class = "btn log-in">Log in</button>
+                     <li><a href = "about.html" target = "_blank">About Us</a></li>
+                     <li><a href = "contact.html" target = "_blank">Contact us</a></li>
+                </ul>
+                <a id = "sign-up" href = "register.html" target = "_blank">
+                    <button class = "btn sign-up"</button> Sign Up
+                </a>
+                <a id = "log-in" href = "register.html" target = "_blank">
+                    <button class = "btn sign-up"</button> Log In
+                </a>
+                
              </div>
              <!--side navbar end-->
 
@@ -69,9 +77,9 @@
                         </div>
                         <div class = "service-content">
                             <h2>Food Service</h2>
-                            <img src = "images/foodservice.jpg" alt = "food-service">
+                            <img src = "images/foodservice.jpg" width = "100" height = "200" alt = "food-service">
                             <p>Hungry? We also provided 5-star food service next to your door!</p>
-                            <button type = "button" class = "btn">Know More</button>
+                            
                         </div>
                     </article>
                     <!-- end of single service -->
@@ -84,25 +92,26 @@
                         </div>
                         <div class = "service-content">
                             <h2>Refreshment</h2>
-                            <p>also provided swimming pool !</p>
-                            <button type = "button" class = "btn">Know More</button>
+                            <img src = "images/pool.jpg" width = "100" height = "200" alt = "swimming-pool">
+                            <p>Hungry? We also provided 5-star food service next to your door!</p>
                         </div>
                     </article>
                      <!-- end of single service -->
                      <!-- single service -->
-                <article class = "service">
-                    <div class = "service-icon">
-                        <span>
-                            <i class = "fas fa-broom"></i>
-                        </span>
-                    </div>
-                    <div class = "service-content">
-                        <h2>Housekeeping</h2>
-                        <p>Maid sama!</p>
-                        <button type = "button" class = "btn">Know More</button>
-                    </div>
-                </article>
-                <!-- end of single service -->
+                    <article class = "service">
+                        <div class = "service-icon">
+                            <span>
+                                <i class = "fas fa-broom"></i>
+                            </span>
+                        </div>
+                        <div class = "service-content">
+                            <h2>Housekeeping</h2>
+                            <img src = "images/house.jpg" width = "100" height = "200" alt = "house-keeping">
+                            <p>Hungry? We also provided 5-star food service next to your door!</p>
+                        
+                        </div>
+                    </article>
+                    <!-- end of single service -->
                  </div>
              </section>
 
@@ -143,25 +152,29 @@
                      <!--single room-->
                      <article class = "room">
                          <div class = "room-image">
-                             <img src = "images/room.jpg" alt = "chonki/ room image">
+                             <img src = "images/room3.jpg" alt = "chonki/ room image">
                          </div>
                          <div class = "room-text">
                              <h3>Luxury Room</h3>
                              <ul>
                                  <li>
-                                     <i class = "fas fa-arrow-alt-circle-right"></i>
-                                     test jap
+                                    <i class="fa-solid fa-bed" ></i>
+                                     2 king
                                  </li>
                                  <li>
-                                    <i class = "fas fa-arrow-alt-circle-right"></i>
-                                    test jap 2
+                                    <i class="fa-solid fa-tv"></i>
+                                    48” LCD Smart TV with Satellite channels
                                  </li>
                                  <li>
-                                    <i class = "fas fa-arrow-alt-circle-right"></i>
-                                    test jap 3
+                                    <i class="fa-solid fa-wifi"></i>
+                                    Complimentary 24hours High-Speed Wi-Fi access
+                                 </li>
+                                 <li>
+                                    <i class="fa-solid fa-spa"></i>
+                                    Free Massages and Spa Treatments
                                  </li>
                              </ul>
-                             <p>ni aku pon taktau</p>
+                             <p>Elegant deluxe ground floor rooms with a king size bed and a double sofa bed in the lounge that can expand into two twin beds for the youngsters.</p>
                              <p class = "rate">
                                  <span>RM500 /</span> Per Night
                              </p>
@@ -178,19 +191,20 @@
                             <h3>Deluxe Room</h3>
                             <ul>
                                 <li>
-                                    <i class = "fas fa-arrow-alt-circle-right"></i>
-                                    sapa do kau
-                                </li>
-                                <li>
-                                   <i class = "fas fa-arrow-alt-circle-right"></i>
-                                   entah
-                                </li>
-                                <li>
-                                   <i class = "fas fa-arrow-alt-circle-right"></i>
-                                   koeoeoeo
-                                </li>
+                                    <i class="fa-solid fa-bed" ></i>
+                                    1 king
+                                 </li>
+                                 <li>
+                                    <i class="fa-solid fa-tv"></i>
+                                    32” LCD TV with Satellite channels
+                                 </li>
+                                 <li>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    Complimentary 24hours Wi-Fi access
+                                 </li>
+                                 
                             </ul>
-                            <p>benda boleh murah do</p>
+                            <p>The Standard Deluxe is designed for comfort and is excellent for solo or group travel.</p>
                             <p class = "rate">
                                 <span>RM200 /</span> Per Night
                             </p>
@@ -201,25 +215,25 @@
                     <!-- single room -->
                     <article class = "room">
                         <div class = "room-image">
-                            <img src = "images/room3.jpg" alt = "chonki/ room image">
+                            <img src = "images/room.jpg" alt = "chonki/ room image">
                         </div>
                         <div class = "room-text">
                             <h3>Premier Room</h3>
                             <ul>
                                 <li>
-                                    <i class = "fas fa-arrow-alt-circle-right"></i>
-                                    sapa do kau
-                                </li>
-                                <li>
-                                   <i class = "fas fa-arrow-alt-circle-right"></i>
-                                   entah
-                                </li>
-                                <li>
-                                   <i class = "fas fa-arrow-alt-circle-right"></i>
-                                   koeoeoeo
-                                </li>
+                                    <i class="fa-solid fa-bed" ></i>
+                                    1 king
+                                 </li>
+                                 <li>
+                                    <i class="fa-solid fa-tv"></i>
+                                    32” LCD TV with Satellite channels
+                                 </li>
+                                 <li>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    Complimentary 24hours Wi-Fi access
+                                 </li>
                             </ul>
-                            <p>benda boleh murah do</p>
+                            <p>The 1-Bedroom Premier is designed for comfort and is perfect for travelling executives or a couple. When staying in our Standard Executive, guests can experience spacious rooms as well as a private balcony from which to enjoy the city view.</p>
                             <p class = "rate">
                                 <span>RM300 /</span> Per Night
                             </p>
@@ -245,10 +259,10 @@
                                 <span><i class = "fas fa-star"></i></span>
                                 <span><i class = "fas fa-star"></i></span>
                             </div>
-                            <h3>Ottoke!!!! Chinchaa</h3>
-                            <p>benda memang murah so saya langgan</p>
-                            <img src = "images/cus.jpg" alt ="kerol-img"> 
-                            <span>Customer Name, Country</span>
+                            <h3>Comfy!</h3>
+                            <p>I had a wonderful experience with CHIKIBOI. Every staff member I encountered were delightful and eager to help!</p>
+                            <img src = "images/cus.jpg" alt ="cus"> 
+                            <span>Han So Hee, Kedah</span>
                         </div>   
                          <!-- end of single customer --> 
                          <!--single customer-->
@@ -260,10 +274,10 @@
                                 <span><i class = "fas fa-star"></i></span>
                                 <span><i class = "fas fa-star"></i></span>
                             </div>
-                            <h3>Ottoke!!!! Chinchaa</h3>
-                            <p>benda memang murah so saya langgan</p>
-                            <img src = "images/cus.jpg" alt ="kerol-img"> 
-                            <span>Customer Name, Country</span>
+                            <h3>Awesome!</h3>
+                            <p>Good location and excellent staff that make us feel very welcome and comfortable.</p>
+                            <img src = "images/cus1.jpg" alt ="cus-1"> 
+                            <span>Lee Ji-eun , Malaysia</span>
                         </div>   
                          <!-- end of single customer --> 
                          <!--single customer-->
@@ -275,10 +289,10 @@
                                 <span><i class = "fas fa-star"></i></span>
                                 <span><i class = "fas fa-star"></i></span>
                             </div>
-                            <h3>Ottoke!!!! Chinchaa</h3>
-                            <p>benda memang murah so saya langgan</p>
-                            <img src = "images/cus.jpg" alt ="kerol-img"> 
-                            <span>Customer Name, Country</span>
+                            <h3>Nice place & Superb!</h3>
+                            <p>The view and swimming pool is really cool and awesome</p>
+                            <img src = "images/cus2.jpg" alt ="cus-2"> 
+                            <span>Kim Dami, Korea</span>
                         </div>   
                          <!-- end of single customer --> 
                     </div>      
@@ -299,28 +313,27 @@
                             
                         </li>
                         <li class = "flex">
-                            <i class = "fa fa-facebook fa-2x"></i>
+                            
+
+                            <a href = "https://www.instagram.com/paradisebeachhotel/?hl=en" class = "fa fa-facebook fa-2x"></a>
                         </li>
                         <li class = "flex">
-                            <i class = "fa fa-instagram fa-2x"></i>
+                          
+                            <a href = "https://www.instagram.com/paradisebeachhotel/?hl=en" class = "fa fa-instagram fa-2x"></a>
                         </li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2>Useful Links</h2>
-                    <a href = "#">Blog</a>
-                    <a href = "#">Rooms</a>
-                    <a href = "#">Subscription</a>
-                    <a href = "#">Gift Card</a>
+                    <h2></h2>
                 </div>
 
                 <div>
                     <h2>Privacy</h2>
-                    <a href = "#">Career</a>
-                    <a href = "#">About Us</a>
-                    <a href = "#">Contact Us</a>
-                    <a href = "#">Services</a>
+                    <a href = "about.html" target = "_blank">About Us</a>
+                    <a href = "contact.html" target = "_blank">Contact Us</a>
+                    <a href = "#services">Services</a>
+                    <a href = "#rooms">Rooms</a>
                 </div>
 
                 <div>
@@ -344,9 +357,11 @@
                     <div class = "contact-item">
                         <span>
                             <i class = "fas fa-envelope"></i>
+                            
                         </span>
                         <span>
-                            reservation@CHIKIBOI.com
+                            
+                            <a href = "mailto:vitemon659@3dinews.com">reservation@CHIKIBOI.com</a>
                         </span>
                     </div>
                 </div>
